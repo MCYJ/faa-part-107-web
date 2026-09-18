@@ -18,3 +18,5 @@
 ## Work log
 
 - 2026-09-18: Created the independent website workspace, verified both live Store URLs, and locked the official-source and claim boundaries before implementation.
+- 2026-09-18: Published 14 original English study guides plus landing, FAQ, privacy, terms, support, contact, sitemap, robots and 404 pages. Local build/check passed for 23 HTML files and 21 indexable routes.
+- 2026-09-18: GitHub repository created as Public and GitHub Pages deployment run `35349921037` passed. Production QA confirmed all 21 sitemap routes and required assets return HTTP 200, an unknown route returns HTTP 404, and the deployed desktop layout renders correctly.

@@ -22,3 +22,9 @@
 - 2026-09-18: GitHub repository created as Public and GitHub Pages deployment run `35349921037` passed. Production QA confirmed all 21 sitemap routes and required assets return HTTP 200, an unknown route returns HTTP 404, and the deployed desktop layout renders correctly.
 - 2026-09-18 design refinement: applied `word-break: keep-all` with safe overflow handling across body text and controls so Korean/localized copy does not split awkwardly; URLs and contact strings retain emergency wrapping.
 - 2026-09-18 Store badge refinement: normalized Google Play and App Store controls to a shared 194×75 frame while preserving official artwork ratios; local build and check passed.
+
+## 2026-10-23 — SEO technical improvements
+
+- Added dependency-free post-build SEO validation and enhancement: valid reciprocal language alternates, page-preserving language switching, source-backed Article identities/citations, BreadcrumbList, social text metadata, noindex on the utility 404, and priority for existing above-fold app imagery.
+- Removed unverified structured-data offers where present. Preserved existing official-source verification dates, visible study content, app artwork, keep-all and equal marketplace badge frames.
+- Public repository instructions were treated only as methodology; no external skill, tool, tracking, account connection, or scheduled action was installed.
